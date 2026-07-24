@@ -21,7 +21,16 @@ Sin embargo, se identifican algunos aspectos que podrían ampliarse para brindar
 
 ### Observaciones
 
+La problemática describe las dificultades que enfrentan las instituciones para administrar laboratorios y gestionar entornos de software. Asimismo, evidencia la necesidad de contar con una plataforma que centralice estos procesos.
+
+No obstante, la descripción puede fortalecerse incorporando ejemplos concretos que permitan comprender mejor el impacto de estas dificultades en la operación diaria.
+
 ### Propuestas de mejora
+
+- Incorporar ejemplos de problemas frecuentes, como conflictos en la reserva de laboratorios, instalación manual de software, diferencias entre versiones de herramientas y dificultades para mantener entornos homogéneos.
+- Explicar cómo la ausencia de trazabilidad dificulta conocer quién realizó modificaciones en imágenes Docker, configuraciones o recursos del laboratorio.
+- Incluir la importancia de establecer una gobernanza para la administración de imágenes Docker, versiones de software y licencias, asegurando un control adecuado durante todo su ciclo de vida.
+- Mencionar los riesgos asociados a una gestión descentralizada, como la duplicidad de recursos, inconsistencias entre laboratorios y dificultades para realizar auditorías.
 
 ---
 
