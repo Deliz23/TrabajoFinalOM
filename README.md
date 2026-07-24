@@ -158,11 +158,12 @@ Los **Chapters** serán liderados por profesores con mínimo 5 años de experien
   - Keycloak (Identity & Access)
   - PostgreSQL + MinIO
 
-<span style="color:red">**Comentario-Joseph:** el stack es coherente y usa herramientas open source reales, lo cual reduce costos de licenciamiento. Observación: falta un componente de gestión de secretos (contraseñas, tokens, llaves de firma) — sin esto, las credenciales quedarían dispersas. Propuesta: agregar HashiCorp Vault o el Secrets Manager nativo de Kubernetes.</span>
+<span style="color:red">**Comentario-Joseph:** el stack es coherente y usa herramientas open source reales, lo cual reduce costos de licenciamiento. Observación: falta un componente de gestión de secretos (contraseñas, tokens, llaves de firma) sin esto, las credenciales quedarían dispersas. Propuesta: agregar HashiCorp Vault o el Secrets Manager nativo de Kubernetes.</span>
 
 - **Infraestructura**: Proxmox VE, Kubernetes (K3s/Talos), Ansible + Terraform
 
 <span style="color:red">**Comentario-Joseph:** no se justifica la elección entre K3s y Talos, son alternativas distintas (K3s es más liviano y fácil de mantener; Talos es más seguro pero con curva de aprendizaje mayor). Propuesta: definir criterio de elección según el nivel del proyecto (K3s para Fase 1 Universitaria, Talos para Fase 2 Empresa, por mayor exigencia de seguridad).</span>
+
 ---
 
 ## Gestión de Imágenes y Trazabilidad
@@ -176,11 +177,11 @@ Los **Chapters** serán liderados por profesores con mínimo 5 años de experien
 6. Descarga segura por estudiantes
 7. Actualizaciones controladas
 
-<span style="color:red">**Comentario-Joseph:** el flujo cubre bien el ciclo de vida de creación y publicación de una imagen. Observación importante: el flujo escanea la imagen solo UNA VEZ, al crearla — no contempla qué pasa si se descubre una vulnerabilidad nueva DESPUÉS de que la imagen ya fue publicada y está en uso (esto es muy común, las vulnerabilidades se descubren constantemente). Propuesta: agregar un paso 8 de "Re-escaneo periódico" de imágenes ya publicadas.</span>
+<span style="color:red">**Comentario-Joseph:** el flujo cubre bien el ciclo de vida de creación y publicación de una imagen. Observación importante: el flujo escanea la imagen solo UNA VEZ, al crearla no contempla qué pasa si se descubre una vulnerabilidad nueva DESPUÉS de que la imagen ya fue publicada y está en uso (esto es muy común, las vulnerabilidades se descubren constantemente). Propuesta: agregar un paso 8 de "Re-escaneo periódico" de imágenes ya publicadas.</span>
 
 <span style="color:red">**Comentario-Joseph:** no se menciona la gestión de licencias de software dentro de las imágenes, solo seguridad (vulnerabilidades). Propuesta: agregar un escaneo de licencias en el mismo paso 3, para detectar si alguna librería incluida tiene una licencia incompatible con el uso que se le dará (académico vs. comercial en Fase 2 Empresa).</span>
 
-<span style="color:red">**Comentario-Joseph:** no se define qué pasa con imágenes obsoletas o que ya no se usan — el catálogo puede crecer indefinidamente. Propuesta: política de retención/deprecación (ej: archivar imágenes sin uso en 12 meses).</span>
+<span style="color:red">**Comentario-Joseph:** no se define qué pasa con imágenes obsoletas o que ya no se usan el catálogo puede crecer indefinidamente. Propuesta: política de retención/deprecación (ej: archivar imágenes sin uso en 12 meses).</span>
 
 Esto garantiza **estandarización y trazabilidad completa**.
 
