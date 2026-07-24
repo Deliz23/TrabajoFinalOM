@@ -248,3 +248,43 @@ La asignación de roles específicos permite distribuir adecuadamente las respon
 Asimismo, la incorporación de procesos estandarizados y buenas prácticas contribuye a mejorar la trazabilidad, la seguridad y la disponibilidad de los recursos tecnológicos, fortaleciendo la calidad del servicio ofrecido por la plataforma.
 
 Finalmente, esta propuesta proporciona una base organizacional que puede adaptarse tanto al contexto universitario como al empresarial, alineándose con los objetivos generales del proyecto y favoreciendo su crecimiento futuro.
+
+---
+
+# Anexo A. Matriz de responsabilidades
+
+La siguiente matriz resume las principales responsabilidades de cada rol dentro de la plataforma propuesta para la gestión de laboratorios.
+
+| Actividad | Director | Encargado del Laboratorio | Administrador del Sistema | Profesor | Estudiante |
+|-----------|:--------:|:-------------------------:|:-------------------------:|:---------:|:----------:|
+| Aprobar políticas del laboratorio | ✅ | | | | |
+| Gestionar la infraestructura física | | ✅ | | | |
+| Administrar servidores y plataforma | | | ✅ | | |
+| Crear y actualizar imágenes Docker | | | ✅ | | |
+| Gestionar usuarios y permisos | | | ✅ | | |
+| Solicitar nuevas imágenes para un curso | | | | ✅ | |
+| Programar prácticas de laboratorio | | | | ✅ | |
+| Utilizar las imágenes autorizadas | | | | | ✅ |
+| Reportar incidencias técnicas | | ✅ | ✅ | ✅ | ✅ |
+| Realizar copias de seguridad | | | ✅ | | |
+| Supervisar el cumplimiento de las normas | ✅ | ✅ | | ✅ | |
+
+La matriz permite identificar claramente las responsabilidades de cada participante, evitando duplicidad de funciones y facilitando una mejor organización dentro del laboratorio.
+
+---
+
+# Referencias
+
+La propuesta presentada en este documento toma como referencia las tecnologías mencionadas en el proyecto original y la documentación oficial de las herramientas utilizadas.
+
+1. Docker Inc. (2026). *Docker Documentation*. https://docs.docker.com/
+
+2. GitLab Inc. (2026). *GitLab Documentation*. https://docs.gitlab.com/
+
+3. Harbor Project. (2026). *Harbor Documentation*. https://goharbor.io/docs/
+
+4. Kubernetes Authors. (2026). *Kubernetes Documentation*. https://kubernetes.io/docs/
+
+5. Red Hat. (2026). *Ansible Documentation*. https://docs.ansible.com/
+
+6. HashiCorp. (2026). *Terraform Documentation*. https://developer.hashicorp.com/terraform/docs
