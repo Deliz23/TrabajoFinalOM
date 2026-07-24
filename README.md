@@ -31,8 +31,9 @@ Este proyecto propone el desarrollo de una **Plataforma Híbrida** para la gesti
 
 La solución combina gestión de hardware (computadoras, servidores, impresoras), usuarios, proyectos/cursos, repositorios de código (GitLab) y un catálogo centralizado de imágenes de contenedores (Docker), garantizando **estandarización, trazabilidad y reproducibilidad** de entornos.
 
-**Comentario:** Se recomienda ampliar el contexto inicial describiendo con mayor detalle las dificultades actuales en la gestión de laboratorios y especificar los actores involucrados (estudiantes, docentes, administradores y personal de soporte). Esto permitirá comprender mejor el alcance y la necesidad de la plataforma.
-
+```diff
+**[Comentario Flor:]** Se recomienda ampliar el contexto inicial describiendo con mayor detalle las dificultades actuales en la gestión de laboratorios y especificar los actores involucrados (estudiantes, docentes, administradores y personal de soporte). Esto permitirá comprender mejor el alcance y la necesidad de la plataforma.
+```
 ---
 
 ## Problemática Común
@@ -48,8 +49,9 @@ Los laboratorios universitarios y las empresas de software enfrentan problemas s
 
 **En el ámbito universitario** se busca especialmente que los alumnos **no pierdan tiempo** en instalaciones y que puedan llevarse las mismas imágenes oficiales a sus computadoras personales para practicar fuera del laboratorio.
 
-**Comentario:** Se sugiere complementar la problemática con ejemplos concretos de situaciones frecuentes, como conflictos en la reserva de laboratorios, falta de control sobre las imágenes Docker o dificultades en la administración de software. Asimismo, sería conveniente mencionar la importancia de la trazabilidad y la gobernanza para garantizar un adecuado seguimiento de los recursos tecnológicos.
-
+```diff
+**[Comentario Flor:]** Se sugiere complementar la problemática con ejemplos concretos de situaciones frecuentes, como conflictos en la reserva de laboratorios, falta de control sobre las imágenes Docker o dificultades en la administración de software. Asimismo, sería conveniente mencionar la importancia de la trazabilidad y la gobernanza para garantizar un adecuado seguimiento de los recursos tecnológicos.
+```
 ---
 
 ## Objetivos
@@ -65,8 +67,9 @@ Desarrollar una plataforma híbrida (local + nube) que permita la gestión estan
 - Crear dos versiones: Académica y Empresarial (con estándares superiores).
 - Formar estudiantes bajo metodologías ágiles reales (Modelo Spotify).
 
-**Comentario:** Se propone incorporar objetivos específicos relacionados con la auditoría de actividades, el control de versiones de imágenes Docker y la administración de licencias de software, con el fin de fortalecer la gestión y la seguridad de la plataforma.
-
+```diff
+**[Comentario Flor:]** Se propone incorporar objetivos específicos relacionados con la auditoría de actividades, el control de versiones de imágenes Docker y la administración de licencias de software, con el fin de fortalecer la gestión y la seguridad de la plataforma.
+```
 ---
 
 ## Justificación y Beneficios
@@ -82,8 +85,9 @@ Desarrollar una plataforma híbrida (local + nube) que permita la gestión estan
 - Estudiantes formados con estándares profesionales.
 - Reducción de riesgos operativos.
 
-**Comentario:** Se recomienda ampliar los beneficios del proyecto considerando aspectos como la trazabilidad de las operaciones, el fortalecimiento del control administrativo, la escalabilidad de la plataforma y la optimización de la gestión de recursos tecnológicos mediante procesos estandarizados.
-
+```diff
+**[Comentario Flor:]** Se recomienda ampliar los beneficios del proyecto considerando aspectos como la trazabilidad de las operaciones, el fortalecimiento del control administrativo, la escalabilidad de la plataforma y la optimización de la gestión de recursos tecnológicos mediante procesos estandarizados.
+```
 ---
 
 ## Enfoque Metodológico
@@ -99,8 +103,9 @@ Se ejecutarán dos proyectos secuenciales:
 1. **Proyecto Universitario** (Fase 1)
 2. **Proyecto Empresa** (Fase 2)
 
-<span style="color:red">**[Fabrizio - Comentario]:** A favor del modelo Spotify porque encaja con equipos pequeños y multidisciplinarios como los nuestros. Observación: no se define la cadencia de trabajo (sprints, ceremonias) ni cómo se sincronizan los Squads entre sí cuando hay dependencias cruzadas. Propuesta: fijar sprints de 2 semanas con ceremonias mínimas (Planning, Daily async, Review, Retro) y una reunión semanal tipo "Scrum of Scrums" entre representantes de cada Squad.</span>
-
+```diff
+**[Fabrizio - Comentario]:** A favor del modelo Spotify porque encaja con equipos pequeños y multidisciplinarios como los nuestros. Observación: no se define la cadencia de trabajo (sprints, ceremonias) ni cómo se sincronizan los Squads entre sí cuando hay dependencias cruzadas. Propuesta: fijar sprints de 2 semanas con ceremonias mínimas (Planning, Daily async, Review, Retro) y una reunión semanal tipo "Scrum of Scrums" entre representantes de cada Squad.
+```
 ---
 
 ## Modelo Organizacional Ágil (Spotify Adaptado)
@@ -122,7 +127,9 @@ Se ejecutarán dos proyectos secuenciales:
 
 Los **Chapters** serán liderados por profesores con mínimo 5 años de experiencia industrial.
 
-<span style="color:red">**[Fabrizio - Comentario]:** A favor de la diferenciación clara de Squads entre Proyecto 1 y 2. Observación: se mencionan Guilds "temáticos" pero no se define qué Guilds existen ni cómo funcionan en la práctica. Propuesta: definir desde el inicio al menos 3 Guilds concretos (Seguridad, DevOps/Infraestructura, Documentación), con reunión mensual y participación voluntaria, además de un rol rotativo de "Agile Facilitator" dentro de cada Squad (no jefe, sino quien organiza las ceremonias).</span>
+```diff
+**[Fabrizio - Comentario]:** A favor de la diferenciación clara de Squads entre Proyecto 1 y 2. Observación: se mencionan Guilds "temáticos" pero no se define qué Guilds existen ni cómo funcionan en la práctica. Propuesta: definir desde el inicio al menos 3 Guilds concretos (Seguridad, DevOps/Infraestructura, Documentación), con reunión mensual y participación voluntaria, además de un rol rotativo de "Agile Facilitator" dentro de cada Squad (no jefe, sino quien organiza las ceremonias).
+```
 
 ---
 
@@ -141,28 +148,31 @@ Los **Chapters** serán liderados por profesores con mínimo 5 años de experien
 **Requisitos Generales:**
 - Proyecto 1: 3er-4to semestre, promedio mínimo 14, portafolio GitHub.
 - Proyecto 2: Haber participado en Proyecto 1 (preferible), conocimientos avanzados en Kubernetes, GitOps y Seguridad.
-
-<span style="color:red">**[Fabrizio - Comentario]:** A favor de exigir Security Engineer desde el Proyecto 1, algo poco común y valioso. Observación: la tabla solo lista habilidades técnicas, sin habilidades blandas (comunicación, trabajo en equipo), críticas en un modelo con alta autonomía como Spotify. Propuesta: agregar columna de habilidades blandas por rol, un checklist de autoevaluación (1-5) antes de asignar Squad, y un plan de onboarding de 1 semana para estudiantes que se integren después del inicio.</span>
-
+```diff
+**[Fabrizio - Comentario]:** A favor de exigir Security Engineer desde el Proyecto 1, algo poco común y valioso. Observación: la tabla solo lista habilidades técnicas, sin habilidades blandas (comunicación, trabajo en equipo), críticas en un modelo con alta autonomía como Spotify. Propuesta: agregar columna de habilidades blandas por rol, un checklist de autoevaluación (1-5) antes de asignar Squad, y un plan de onboarding de 1 semana para estudiantes que se integren después del inicio.
+```
 ---
 
 ## Arquitectura Técnica Propuesta
 
 - **Modelo Híbrido**: On-premise (Proxmox + Kubernetes) + Nube
-
-<span style="color:red">**Comentario-Joseph:** no se especifica qué parte va on-premise y qué parte va en nube. Propuesta: aclarar que los servidores de cómputo intensivo (K8s) y las imágenes sensibles quedan on-premise, mientras que backups y colaboración externa (GitLab) pueden ir en nube.</span>
-
+```diff
+**Comentario-Joseph:** no se especifica qué parte va on-premise y qué parte va en nube. Propuesta: aclarar que los servidores de cómputo intensivo (K8s) y las imágenes sensibles quedan on-premise, mientras que backups y colaboración externa (GitLab) pueden ir en nube.
+```
 - **Componentes principales**:
   - GitLab (código y CI/CD)
   - Harbor (Registry de imágenes)
   - Keycloak (Identity & Access)
   - PostgreSQL + MinIO
 
-<span style="color:red">**Comentario-Joseph:** el stack es coherente y usa herramientas open source reales, lo cual reduce costos de licenciamiento. Observación: falta un componente de gestión de secretos (contraseñas, tokens, llaves de firma) sin esto, las credenciales quedarían dispersas. Propuesta: agregar HashiCorp Vault o el Secrets Manager nativo de Kubernetes.</span>
-
+```diff
+**Comentario-Joseph:** el stack es coherente y usa herramientas open source reales, lo cual reduce costos de licenciamiento. Observación: falta un componente de gestión de secretos (contraseñas, tokens, llaves de firma) sin esto, las credenciales quedarían dispersas. Propuesta: agregar HashiCorp Vault o el Secrets Manager nativo de Kubernetes.
+```
 - **Infraestructura**: Proxmox VE, Kubernetes (K3s/Talos), Ansible + Terraform
-
-<span style="color:red">**Comentario-Joseph:** no se justifica la elección entre K3s y Talos, son alternativas distintas (K3s es más liviano y fácil de mantener; Talos es más seguro pero con curva de aprendizaje mayor). Propuesta: definir criterio de elección según el nivel del proyecto (K3s para Fase 1 Universitaria, Talos para Fase 2 Empresa, por mayor exigencia de seguridad).</span>
+  
+```diff
+**Comentario-Joseph:** no se justifica la elección entre K3s y Talos, son alternativas distintas (K3s es más liviano y fácil de mantener; Talos es más seguro pero con curva de aprendizaje mayor). Propuesta: definir criterio de elección según el nivel del proyecto (K3s para Fase 1 Universitaria, Talos para Fase 2 Empresa, por mayor exigencia de seguridad).
+```
 
 ---
 
@@ -177,14 +187,15 @@ Los **Chapters** serán liderados por profesores con mínimo 5 años de experien
 6. Descarga segura por estudiantes
 7. Actualizaciones controladas
 
-<span style="color:red">**Comentario-Joseph:** el flujo cubre bien el ciclo de vida de creación y publicación de una imagen. Observación importante: el flujo escanea la imagen solo UNA VEZ, al crearla no contempla qué pasa si se descubre una vulnerabilidad nueva DESPUÉS de que la imagen ya fue publicada y está en uso (esto es muy común, las vulnerabilidades se descubren constantemente). Propuesta: agregar un paso 8 de "Re-escaneo periódico" de imágenes ya publicadas.</span>
+```diff
+**Comentario-Joseph:** el flujo cubre bien el ciclo de vida de creación y publicación de una imagen. Observación importante: el flujo escanea la imagen solo UNA VEZ, al crearla no contempla qué pasa si se descubre una vulnerabilidad nueva DESPUÉS de que la imagen ya fue publicada y está en uso (esto es muy común, las vulnerabilidades se descubren constantemente). Propuesta: agregar un paso 8 de "Re-escaneo periódico" de imágenes ya publicadas.
 
-<span style="color:red">**Comentario-Joseph:** no se menciona la gestión de licencias de software dentro de las imágenes, solo seguridad (vulnerabilidades). Propuesta: agregar un escaneo de licencias en el mismo paso 3, para detectar si alguna librería incluida tiene una licencia incompatible con el uso que se le dará (académico vs. comercial en Fase 2 Empresa).</span>
+**Comentario-Joseph:** no se menciona la gestión de licencias de software dentro de las imágenes, solo seguridad (vulnerabilidades). Propuesta: agregar un escaneo de licencias en el mismo paso 3, para detectar si alguna librería incluida tiene una licencia incompatible con el uso que se le dará (académico vs. comercial en Fase 2 Empresa).
 
-<span style="color:red">**Comentario-Joseph:** no se define qué pasa con imágenes obsoletas o que ya no se usan el catálogo puede crecer indefinidamente. Propuesta: política de retención/deprecación (ej: archivar imágenes sin uso en 12 meses).</span>
+**Comentario-Joseph:** no se define qué pasa con imágenes obsoletas o que ya no se usan el catálogo puede crecer indefinidamente. Propuesta: política de retención/deprecación (ej: archivar imágenes sin uso en 12 meses).
 
 Esto garantiza **estandarización y trazabilidad completa**.
-
+```
 ---
 
 ## Fases de Implementación
