@@ -157,7 +157,7 @@ Los **Chapters** serán liderados por profesores con mínimo 5 años de experien
 
 - **Modelo Híbrido**: On-premise (Proxmox + Kubernetes) + Nube
 ```diff
-**Comentario-Joseph:** no se especifica qué parte va on-premise y qué parte va en nube. Propuesta: aclarar que los servidores de cómputo intensivo (K8s) y las imágenes sensibles quedan on-premise, mientras que backups y colaboración externa (GitLab) pueden ir en nube.
+- [Comentario-Joseph:] no se especifica qué parte va on-premise y qué parte va en nube. Propuesta: aclarar que los servidores de cómputo intensivo (K8s) y las imágenes sensibles quedan on-premise, mientras que backups y colaboración externa (GitLab) pueden ir en nube.
 ```
 - **Componentes principales**:
   - GitLab (código y CI/CD)
@@ -166,12 +166,12 @@ Los **Chapters** serán liderados por profesores con mínimo 5 años de experien
   - PostgreSQL + MinIO
 
 ```diff
-**Comentario-Joseph:** el stack es coherente y usa herramientas open source reales, lo cual reduce costos de licenciamiento. Observación: falta un componente de gestión de secretos (contraseñas, tokens, llaves de firma) sin esto, las credenciales quedarían dispersas. Propuesta: agregar HashiCorp Vault o el Secrets Manager nativo de Kubernetes.
+- [Comentario-Joseph:] el stack es coherente y usa herramientas open source reales, lo cual reduce costos de licenciamiento. Observación: falta un componente de gestión de secretos (contraseñas, tokens, llaves de firma) sin esto, las credenciales quedarían dispersas. Propuesta: agregar HashiCorp Vault o el Secrets Manager nativo de Kubernetes.
 ```
 - **Infraestructura**: Proxmox VE, Kubernetes (K3s/Talos), Ansible + Terraform
   
 ```diff
-**Comentario-Joseph:** no se justifica la elección entre K3s y Talos, son alternativas distintas (K3s es más liviano y fácil de mantener; Talos es más seguro pero con curva de aprendizaje mayor). Propuesta: definir criterio de elección según el nivel del proyecto (K3s para Fase 1 Universitaria, Talos para Fase 2 Empresa, por mayor exigencia de seguridad).
+- [Comentario-Joseph:] no se justifica la elección entre K3s y Talos, son alternativas distintas (K3s es más liviano y fácil de mantener; Talos es más seguro pero con curva de aprendizaje mayor). Propuesta: definir criterio de elección según el nivel del proyecto (K3s para Fase 1 Universitaria, Talos para Fase 2 Empresa, por mayor exigencia de seguridad).
 ```
 
 ---
