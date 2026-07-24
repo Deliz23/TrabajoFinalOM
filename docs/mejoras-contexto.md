@@ -1,0 +1,1 @@
+# Propuestas de mejora del contexto del proyecto
