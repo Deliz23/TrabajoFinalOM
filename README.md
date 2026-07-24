@@ -181,6 +181,23 @@ Esto garantiza **estandarización y trazabilidad completa**.
 4. Piloto y Puesta en Producción
 5. Mejora Continua
 
+<font color="red">
+
+### Comentario de revisión - Usiel
+
+**Aspecto positivo**
+
+La división por fases facilita la planificación general del proyecto.
+
+**Observación**
+
+No se especifican entregables, responsables ni criterios para finalizar cada fase.
+
+**Propuesta**
+
+Agregar un cronograma detallado con actividades, responsables y productos esperados por cada etapa.
+
+</font>
 ---
 
 ## Conclusiones y Recomendaciones
