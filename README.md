@@ -181,23 +181,16 @@ Esto garantiza **estandarización y trazabilidad completa**.
 4. Piloto y Puesta en Producción
 5. Mejora Continua
 
-<font color="red">
+```diff
+- [Comentario de Usiel - Responsable de Fases de Implementación]&#58; 
+- 1. A favor: La división del proyecto en fases permite tener una visión general del proceso de desarrollo y facilita la planificación del trabajo.
 
-### Comentario de revisión - Usiel
+- 2. Observación/Riesgo: No se especifican las actividades, entregables ni responsables de cada fase, lo que puede generar confusión durante la ejecución del proyecto.
 
-**Aspecto positivo**
+- 3. Observación/Riesgo: Tampoco se definen criterios que permitan saber cuándo una fase ha sido completada correctamente antes de pasar a la siguiente.
 
-La división por fases facilita la planificación general del proyecto.
-
-**Observación**
-
-No se especifican entregables, responsables ni criterios para finalizar cada fase.
-
-**Propuesta**
-
-Agregar un cronograma detallado con actividades, responsables y productos esperados por cada etapa.
-
-</font>
+- 4. Mejora propuesta: Agregar un cronograma donde cada fase incluya sus actividades principales, responsables, entregables y criterios de finalización para mejorar el seguimiento del proyecto.
+```
 ---
 
 ## Conclusiones y Recomendaciones
@@ -210,6 +203,16 @@ Esta plataforma representa una oportunidad estratégica para modernizar los labo
 - Formalizar participación de profesores como Chapter Leads.
 
 ---
+```diff
+- [Comentario de Usiel - Responsable de Conclusiones y Recomendaciones]&#58; 
+- 1. A favor: Las conclusiones resumen adecuadamente el propósito general del proyecto y destacan su impacto tanto en el ámbito académico como empresarial.
+
+- 2. Observación/Riesgo: No se mencionan posibles desafíos o riesgos que podrían presentarse durante la implementación de la plataforma.
+
+- 3. Observación/Riesgo: Las recomendaciones son útiles, pero podrían ser insuficientes para garantizar la sostenibilidad del proyecto a largo plazo.
+
+- 4. Mejora propuesta: Incorporar recomendaciones relacionadas con mantenimiento periódico, capacitación continua de los usuarios, monitoreo del sistema e indicadores que permitan evaluar el éxito del proyecto después de su implementación.
+```
 
 ## Anexos
 
@@ -234,7 +237,16 @@ Esta plataforma representa una oportunidad estratégica para modernizar los labo
 *(Ver documento `costos.md`)*
 
 ---
+```diff
+- [Comentario de Usiel - Responsable de Anexos]&#58; 
+- 1. A favor: Los anexos permiten organizar la documentación complementaria sin sobrecargar el documento principal.
 
+- 2. Observación/Riesgo: Algunos documentos mencionados en los anexos aún no existen dentro del repositorio, por lo que la información queda incompleta.
+
+- 3. Observación/Riesgo: No se describe el contenido esperado de cada anexo ni su relación con el desarrollo del proyecto.
+
+- 4. Mejora propuesta: Incorporar los documentos faltantes y agregar una breve descripción del objetivo de cada anexo para facilitar su consulta y comprensión.
+```
 ## Cómo Contribuir
 
 1. Leer el [Code of Conduct](CODE_OF_CONDUCT.md)
