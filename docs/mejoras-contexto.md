@@ -53,4 +53,12 @@ Los objetivos del proyecto están alineados con la finalidad de desarrollar una 
 
 ### Observaciones
 
+La justificación y los beneficios del proyecto describen adecuadamente el impacto positivo que tendrá la plataforma en la gestión de laboratorios, destacando mejoras en la organización, la automatización y el aprovechamiento de los recursos tecnológicos. No obstante, estos beneficios pueden ampliarse considerando aspectos relacionados con la administración, la seguridad y la sostenibilidad de la plataforma.
+
 ### Propuestas de mejora
+
+- Incorporar beneficios relacionados con la trazabilidad de las operaciones, permitiendo registrar las acciones realizadas por cada usuario para facilitar auditorías y el seguimiento de incidencias.
+- Destacar la importancia de una adecuada gobernanza de imágenes Docker y software, garantizando el control de versiones y la correcta administración de los recursos tecnológicos.
+- Considerar como beneficio la optimización del control administrativo mediante la definición de roles, permisos y responsabilidades para cada tipo de usuario.
+- Incluir la escalabilidad de la plataforma como una ventaja, permitiendo su adaptación a nuevos laboratorios, cursos o sedes sin afectar su funcionamiento.
+- Resaltar que una mejor gestión de licencias y recursos tecnológicos contribuye a reducir costos operativos y facilita el cumplimiento de las políticas institucionales.
