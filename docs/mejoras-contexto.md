@@ -38,7 +38,14 @@ No obstante, la descripción puede fortalecerse incorporando ejemplos concretos 
 
 ### Observaciones
 
+Los objetivos del proyecto están alineados con la finalidad de desarrollar una plataforma para la gestión de laboratorios y describen adecuadamente las funcionalidades que se buscan implementar. Sin embargo, algunos objetivos pueden complementarse para abarcar aspectos relacionados con la administración, el control y la seguridad de la plataforma.
+
 ### Propuestas de mejora
+
+- Incorporar un objetivo específico orientado a garantizar la trazabilidad de las operaciones realizadas por los diferentes usuarios del sistema.
+- Añadir un objetivo relacionado con la administración y el control de versiones de las imágenes Docker, permitiendo mantener entornos de laboratorio consistentes y actualizados.
+- Considerar un objetivo que contemple la gestión de licencias de software y la gobernanza de los recursos tecnológicos utilizados en los laboratorios.
+- Incluir un objetivo enfocado en la generación de registros de auditoría que faciliten el seguimiento de cambios y la toma de decisiones por parte de los administradores.
 
 ---
 
