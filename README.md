@@ -31,6 +31,8 @@ Este proyecto propone el desarrollo de una **Plataforma Híbrida** para la gesti
 
 La solución combina gestión de hardware (computadoras, servidores, impresoras), usuarios, proyectos/cursos, repositorios de código (GitLab) y un catálogo centralizado de imágenes de contenedores (Docker), garantizando **estandarización, trazabilidad y reproducibilidad** de entornos.
 
+**Comentario:** Se recomienda ampliar el contexto inicial describiendo con mayor detalle las dificultades actuales en la gestión de laboratorios y especificar los actores involucrados (estudiantes, docentes, administradores y personal de soporte). Esto permitirá comprender mejor el alcance y la necesidad de la plataforma.
+
 ---
 
 ## Problemática Común
@@ -45,6 +47,8 @@ Los laboratorios universitarios y las empresas de software enfrentan problemas s
 - Escalabilidad limitada al pasar de academia a industria.
 
 **En el ámbito universitario** se busca especialmente que los alumnos **no pierdan tiempo** en instalaciones y que puedan llevarse las mismas imágenes oficiales a sus computadoras personales para practicar fuera del laboratorio.
+
+**Comentario:** Se sugiere complementar la problemática con ejemplos concretos de situaciones frecuentes, como conflictos en la reserva de laboratorios, falta de control sobre las imágenes Docker o dificultades en la administración de software. Asimismo, sería conveniente mencionar la importancia de la trazabilidad y la gobernanza para garantizar un adecuado seguimiento de los recursos tecnológicos.
 
 ---
 
@@ -61,6 +65,8 @@ Desarrollar una plataforma híbrida (local + nube) que permita la gestión estan
 - Crear dos versiones: Académica y Empresarial (con estándares superiores).
 - Formar estudiantes bajo metodologías ágiles reales (Modelo Spotify).
 
+**Comentario:** Se propone incorporar objetivos específicos relacionados con la auditoría de actividades, el control de versiones de imágenes Docker y la administración de licencias de software, con el fin de fortalecer la gestión y la seguridad de la plataforma.
+
 ---
 
 ## Justificación y Beneficios
@@ -75,6 +81,8 @@ Desarrollar una plataforma híbrida (local + nube) que permita la gestión estan
 - Plataforma lista para entornos productivos.
 - Estudiantes formados con estándares profesionales.
 - Reducción de riesgos operativos.
+
+**Comentario:** Se recomienda ampliar los beneficios del proyecto considerando aspectos como la trazabilidad de las operaciones, el fortalecimiento del control administrativo, la escalabilidad de la plataforma y la optimización de la gestión de recursos tecnológicos mediante procesos estandarizados.
 
 ---
 
