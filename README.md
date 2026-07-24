@@ -175,7 +175,11 @@ Los **Chapters** serán liderados por profesores con mínimo 5 años de experien
 7. Actualizaciones controladas
 
 Esto garantiza **estandarización y trazabilidad completa**.
+<span style="color:red">**Comentario-Joseph:** el flujo cubre bien el ciclo de vida de creación y publicación de una imagen. Observación importante: el flujo escanea la imagen solo UNA VEZ, al crearla — no contempla qué pasa si se descubre una vulnerabilidad nueva DESPUÉS de que la imagen ya fue publicada y está en uso (esto es muy común, las vulnerabilidades se descubren constantemente). Propuesta: agregar un paso 8 de "Re-escaneo periódico" de imágenes ya publicadas.</span>
 
+<span style="color:red">**Comentario-Joseph:** no se menciona la gestión de licencias de software dentro de las imágenes, solo seguridad (vulnerabilidades). Propuesta: agregar un escaneo de licencias en el mismo paso 3, para detectar si alguna librería incluida tiene una licencia incompatible con el uso que se le dará (académico vs. comercial en Fase 2 Empresa).</span>
+
+<span style="color:red">**Comentario-Joseph:** no se define qué pasa con imágenes obsoletas o que ya no se usan — el catálogo puede crecer indefinidamente. Propuesta: política de retención/deprecación (ej: archivar imágenes sin uso en 12 meses).</span>
 ---
 
 ## Fases de Implementación
