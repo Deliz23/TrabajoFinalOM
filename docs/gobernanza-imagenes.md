@@ -1,8 +1,7 @@
 # Gobernanza de Imágenes, Seguridad y Licenciamiento
 
 **Documento de Propuesta de Mejora**
-**Autor:** Bryan
-**Basado en:** `docs/arquitectura.md` y `docs/gestion-imagenes.md` del documento base
+
 **Fecha:** Julio 2026
 
 ---
@@ -88,8 +87,6 @@ Se propone que cada imagen publicada guarde, como mínimo, estos metadatos (esto
 
 ## 4. Gobernanza de licencias de software
 
-Este es el punto que el documento base **no cubre en absoluto**, y que el profesor pidió explícitamente abordar.
-
 ### 4.1 Por qué importa
 El proyecto tiene dos versiones: **Académica** y **Empresarial**. Lo que es legalmente aceptable en un contexto académico (uso educativo, sin fines de lucro) puede no serlo en un contexto empresarial (uso comercial). Ejemplo: una librería con licencia **GPL** obliga a que cualquier software que la use también sea de código abierto ("efecto copyleft") — esto es inaceptable si una empresa quiere vender un producto cerrado que la incluya.
 
@@ -107,7 +104,7 @@ El proyecto tiene dos versiones: **Académica** y **Empresarial**. Lo que es leg
 2. **Matriz de políticas por versión del proyecto:**
    - Versión Académica: se permiten todas las licencias open source (incluyendo GPL), ya que no hay fines comerciales.
    - Versión Empresarial: se **bloquean automáticamente** imágenes con licencias copyleft fuerte (GPL/AGPL) salvo aprobación explícita del área legal/administrador.
-3. **Registro del resultado** como parte de los metadatos de trazabilidad (ver tabla en sección 3.4).
+3. **Registro del resultado** como parte de los metadatos de trazabilidad.
 
 ### 4.4 Rol responsable
 Se propone que esta responsabilidad recaiga sobre el mismo **Responsable de Imágenes** definido en el documento base, ampliando su función de "solo seguridad técnica" a "seguridad técnica + cumplimiento de licencias".
@@ -130,7 +127,7 @@ Se propone que esta responsabilidad recaiga sobre el mismo **Responsable de Imá
 | 2 | Criterio K3s (Fase 1) vs Talos (Fase 2) | Arquitectura Técnica |
 | 3 | Observabilidad (Prometheus/Grafana/Loki) | Arquitectura Técnica |
 | 4 | Re-escaneo periódico de imágenes publicadas | Gestión de Imágenes |
-| 5 | Escaneo y política de licencias de software | Gestión de Imágenes (nuevo) |
+| 5 | Escaneo y política de licencias de software | Gestión de Imágenes |
 | 6 | Política de retención/deprecación | Gestión de Imágenes |
 | 7 | Tabla de metadatos mínimos de trazabilidad | Gestión de Imágenes |
 
