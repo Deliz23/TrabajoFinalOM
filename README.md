@@ -91,6 +91,8 @@ Se ejecutarán dos proyectos secuenciales:
 1. **Proyecto Universitario** (Fase 1)
 2. **Proyecto Empresa** (Fase 2)
 
+<span style="color:red">**[Fabrizio - Comentario]:** A favor del modelo Spotify porque encaja con equipos pequeños y multidisciplinarios como los nuestros. Observación: no se define la cadencia de trabajo (sprints, ceremonias) ni cómo se sincronizan los Squads entre sí cuando hay dependencias cruzadas. Propuesta: fijar sprints de 2 semanas con ceremonias mínimas (Planning, Daily async, Review, Retro) y una reunión semanal tipo "Scrum of Scrums" entre representantes de cada Squad.</span>
+
 ---
 
 ## Modelo Organizacional Ágil (Spotify Adaptado)
@@ -112,6 +114,8 @@ Se ejecutarán dos proyectos secuenciales:
 
 Los **Chapters** serán liderados por profesores con mínimo 5 años de experiencia industrial.
 
+<span style="color:red">**[Fabrizio - Comentario]:** A favor de la diferenciación clara de Squads entre Proyecto 1 y 2. Observación: se mencionan Guilds "temáticos" pero no se define qué Guilds existen ni cómo funcionan en la práctica. Propuesta: definir desde el inicio al menos 3 Guilds concretos (Seguridad, DevOps/Infraestructura, Documentación), con reunión mensual y participación voluntaria, además de un rol rotativo de "Agile Facilitator" dentro de cada Squad (no jefe, sino quien organiza las ceremonias).</span>
+
 ---
 
 ## Requisitos de Conocimientos y Habilidades
@@ -129,6 +133,8 @@ Los **Chapters** serán liderados por profesores con mínimo 5 años de experien
 **Requisitos Generales:**
 - Proyecto 1: 3er-4to semestre, promedio mínimo 14, portafolio GitHub.
 - Proyecto 2: Haber participado en Proyecto 1 (preferible), conocimientos avanzados en Kubernetes, GitOps y Seguridad.
+
+<span style="color:red">**[Fabrizio - Comentario]:** A favor de exigir Security Engineer desde el Proyecto 1, algo poco común y valioso. Observación: la tabla solo lista habilidades técnicas, sin habilidades blandas (comunicación, trabajo en equipo), críticas en un modelo con alta autonomía como Spotify. Propuesta: agregar columna de habilidades blandas por rol, un checklist de autoevaluación (1-5) antes de asignar Squad, y un plan de onboarding de 1 semana para estudiantes que se integren después del inicio.</span>
 
 ---
 
