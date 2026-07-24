@@ -62,3 +62,9 @@ La justificación y los beneficios del proyecto describen adecuadamente el impac
 - Se sugiere considerar como beneficio la optimización del control administrativo mediante la definición de roles, permisos y responsabilidades para cada tipo de usuario.
 - Seria conveniente incluir la escalabilidad de la plataforma como una ventaja, permitiendo su adaptación a nuevos laboratorios, cursos o sedes sin afectar su funcionamiento.
 - Se recomienda resaltar que una mejor gestión de licencias y recursos tecnológicos contribuye a reducir costos operativos y facilita el cumplimiento de las políticas institucionales.
+---
+## Conlusión
+
+La revisión de las secciones **Introducción, Problemática Común, Objetivos y Justificación y Beneficios** permitió identificar oportunidades para fortalecer la documentación del proyecto. Las propuestas planteadas buscan complementar la información existente mediante la incorporación de aspectos relacionados con la trazabilidad, la gobernanza de imágenes Docker, la gestión de licencias, la auditoría y una definición más clara de los actores involucrados.
+
+La implementación de estas recomendaciones contribuiría a que la documentación sea más completa, facilite la comprensión del alcance del proyecto y refleje de manera más precisa las buenas prácticas para la gestión de laboratorios, tanto en el ámbito académico como empresarial.
